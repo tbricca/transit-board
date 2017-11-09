@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
             <h4>Here's a board to track all the transit that is around you </h4>
             <input className="searchbox" type='text' placeholder="Search by city..."  />
           </div>
-          <div className="card" style="width: 20rem;">
+          <div className="card" style={{width: "20rem"}} >
               <img className="card-img-top" src="..." alt="Card image cap" />
               <div className="card-block">
                 <h4 className="card-title">Card title</h4>
