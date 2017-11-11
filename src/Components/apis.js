@@ -1,22 +1,25 @@
-import oneBusApi from "../cool.js";
+// import oneBusApi from "../cool.js";
 
-var apiUrl = `http://api.pugetsound.onebusaway.org/api/where/arrival-and-departure-for-stop/1_75403.xml?key=${oneBusApi}&tripId=1_15551341&serviceDate=1291536000000&vehicleId=1_3521&stopSequence=42`
-// 
-//arrival and departure for a stop 
-function busApiCall(){
-    console.log(oneBusApi);
-    fetch(apiUrl, {mode: 'no-cors'})
-    .then(function(response) {
-        if(response.ok) {
-            return response;
-        }
-        throw new Error("You messed up man");
-    });
-}
+// var apiUrl = 'http://api.pugetsound.onebusaway.org/api/where/routes-for-location.xml?key=ec76e3f1-3c97-4f4a-a55e-447cfffa457b&lat=47.6120&lon=-122.335167'
+ 
+// // 
+// //arrival and departure for a stop 
+// function busApiCall(){
+//     console.log(oneBusApi);
+//     fetch(apiUrl)
+//     .then(function(response) {
+//         console.log(response);
+//         if(response.ok) {
+//             return response;
+//         }
+//         throw new Error("You messed up man");
+//         // request call on the backend 
+//     });
+// }
 
 
 
 
 
 
-export default busApiCall;
+// export default busApiCall;
